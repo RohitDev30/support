@@ -1,9 +1,4 @@
 import React, { useState } from "react";
-//import "bootstrap/dist/css/bootstrap.css";
-import "../../Assets/assets/css/main.css";
-import "../../Assets/assets/lib/magic/magic.css";
-import "../../Assets/assets/css/style.css";
-//import "../../Assets/assets/lib/validationengine/css/validationEngine.jquery.css";
 
 function Login() {
   const [loginError, setLoginError] = useState(false);
