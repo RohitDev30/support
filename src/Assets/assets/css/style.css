@@ -1,0 +1,141 @@
+.cordinatorBox{ 
+border: 1px solid #333032;
+border-radius: 30px;
+background-image: -webkit-gradient(linear, center top, center bottom, from(rgba(255,255,255,0.1)), to(rgba(0,0,0,0.1)));
+background-image: -webkit-linear-gradient(top, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+background-image: -moz-linear-gradient(top, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+background-image: -o-linear-gradient(top, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+background-image: -ms-linear-gradient(top, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+background-image: linear-gradient(to bottom, rgba(255,255,255,0.1), rgba(0,0,0,0.1));
+-webkit-box-shadow: 0 1px 5px #f0f0f0, inset 0 1px 0 white;
+-moz-box-shadow: 0 1px 5px #f0f0f0, inset 0 1px 0 white;
+box-shadow: 0 1px 5px #f0f0f0, inset 0 1px 0 white;
+    margin: 0 0 10px;
+    padding: 10px 12px 0;
+}
+.attach-label-text{
+  background: none repeat scroll 0 0 #333333;
+    border-radius: 10px 10px 0 0;
+    color: #FFFFFF;
+    height: 31px;
+    left: 30px;
+    padding: 1px 0 0 4px;
+    position: relative;
+    top: 0;
+    width: 170px;
+    z-index: 10000;	
+}
+.logoTxt{
+	color: #FFFFFF;
+    font-size: 36px;
+    text-align: center;	
+}
+.green-left {
+    background: url(../img/message_green.gif) no-repeat scroll left top rgba(0, 0, 0, 0);
+    color: #6DA827;
+    font-family: Tahoma;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 0 0 0 4%;
+}
+.green-right {
+    width: 55px;
+}
+.green-right a {
+    cursor: pointer;
+}
+.red-left {
+    background-color: #FBD3B1;
+    border-radius: 5px;
+    color: #CE2700;
+    font-family: Tahoma;
+    font-weight: bold;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+.red-close {
+    background-color: #EB632C;
+    border-radius: 10px;
+    color: #FFFFFF;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    padding-bottom: 1.5px;
+    width: 20px;
+}
+.blue-left	{
+    background-color: #e4edf5;
+    border-radius: 5px;
+    color: #2e74b2;
+    font-family: Tahoma;
+    font-weight: bold;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+}
+.scrollAt300{
+	max-height:300px;
+	overflow:auto;
+}
+.scrollAt600{
+	max-height:600px;
+	overflow:auto;
+}
+/* <!--RESPONSIVE TABLE CSS START'S  --> */
+@import 'http://fonts.googleapis.com/css?family=Montserrat:300, 400, 700';
+.rwd-table {
+  margin: 1em 0;
+  min-width: 100px;
+}
+.rwd-table th {
+  display: none;
+}
+.rwd-table td {
+  display: block;
+}
+.rwd-table td:first-child {
+  padding-top: .5em;
+}
+.rwd-table td:last-child {
+  padding-bottom: .5em;
+}
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 6.5em;
+  display: inline-block;
+}
+@media (min-width: 480px) {
+  .rwd-table td:before {
+    display: none;
+  }
+}
+.rwd-table th, .rwd-table td {
+  text-align: left;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child, .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child, .rwd-table td:last-child {
+    padding-right: 0;
+  }
+}
+
+.rwd-table {
+  overflow: hidden;
+}
+.rwd-table th, .rwd-table td {
+  margin: .5em 1em;
+}
+@media (min-width: 480px) {
+  .rwd-table th, .rwd-table td {
+    padding: 0em important;
+  }
+}
+/* <!--  RESPONSIVE TABLE CSS END'S --> */
