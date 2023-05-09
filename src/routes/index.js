@@ -15,7 +15,7 @@ function RouterComponent() {
                 {/* <Route path='/dashboard' element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
                 <Route path='/' element={<ProtectedRoute><Dashboard /></ProtectedRoute>} /> */}
                 <Route path='/login' element={<Login />} />
-               
+                <Route path='/' element={<Login />} />
                
                 
               
